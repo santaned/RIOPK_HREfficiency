@@ -2,7 +2,7 @@ spring:
     datasource:
         url: jdbc:mysql://localhost:3306/hr_efficiency
         username: root
-        password: 12063335
+        password: 
         driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
         hibernate:
@@ -15,8 +15,8 @@ spring:
         database-platform: org.hibernate.dialect.MySQL8Dialect
     mail:
         host: smtp.yandex.ru
-        username: a.zastupnevich@yandex.ru
-        password: f5bobm6b3om1vuw67eie99mw0
+        username: 
+        password: 
         port: 465
         protocol: smtps
 
